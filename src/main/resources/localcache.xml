@@ -1,0 +1,13 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+
+<localcaches>
+    <readonly>
+        <cache className="com.soshare.common.cache.PubDictItemCache" cronExpr="0 0 * * ?" init="false" />
+    	<cache className="com.soshare.common.cache.DBSystemTimeCache" init="true"/>
+    </readonly>
+    
+    <readwrite>
+        <cache name="COMMON_CACHE" maxSize="100000" />
+    </readwrite>
+
+</localcaches>
